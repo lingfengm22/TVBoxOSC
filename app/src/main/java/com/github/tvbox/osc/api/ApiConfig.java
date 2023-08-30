@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "aHR0cDovL2k2bS5jbjo4OC90di8xOHR2LzE4Lmpzb24=");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
